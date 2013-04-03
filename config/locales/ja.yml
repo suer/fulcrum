@@ -8,6 +8,7 @@ ja:
   log in:   "ログイン"
   sign up:  "サインアップ"
   edit:     "編集"
+  update:   "更新"
   delete:   "削除"
   back:     "戻る"
   import:   "インポート"
@@ -64,6 +65,9 @@ ja:
         iteration_start_day:  'イテレーション開始日'
         iteration_length:     'イテレーションの長さ'
         default_velocity:     'デフォルトのベロシティ'
+        started_at:           '開始日'
+        created_at:           '作成日'
+        updated_at:           '更新日'
       story:
         title:                'タイトル'
         description:          '説明'
@@ -75,7 +79,14 @@ ja:
         labels:               'ラベル'
         requested_by:         '依頼者'
         owned_by:             '担当者'
-
+      user:
+        locale:               '言語'
+        name:                 '名前'
+        email:                'メールアドレス'
+        initials:             'イニシャル'
+        password:             'パスワード'
+        password_confirmation: '確認用パスワード'
+        current_password:     '現在のパスワード'
 
   projects:
     new project:        "新規プロジェクト"
@@ -103,6 +114,7 @@ ja:
       leave_blank_if_you_dont_want_to_change_it: "変更しない場合は空白にしてください"
       notify_me_when_my_stories_are: "自分のストーリーが下記だったら知らせる"
       we_need_your_current_password_to_confirm_your_changes: "変更するには現在のパスワードが必要です。"
+      cancel my account: "アカウントを削除する"
 
   time:
     formats:

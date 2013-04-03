@@ -8,6 +8,7 @@ en:
   log in:   "Log in"
   sign up:  "Sign up"
   edit:     "Edit"
+  update:   "Update"
   delete:   "Delete"
   back:     "Back"
   import:   "Import"
@@ -75,7 +76,14 @@ en:
         labels:               'Labels'
         requested_by:         'Requested by'
         owned_by:             'Owned by'
-
+      user:
+        locale:               'Locale'
+        name:                 'Name'
+        email:                'Email'
+        initials:             'Initials'
+        password:             'Password'
+        password_confirmation: 'Password confirmation'
+        current_password:     'Current password'
 
   projects:
     new project:        "New Project"
